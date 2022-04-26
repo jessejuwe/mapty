@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "parcel": "^2.5.0"
+  },
+  "name": "mapty",
+  "version": "1.0.0",
+  "description": "Map Application with custom geolocation tagging for physical activities",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist",
+    "default": "index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessejuwe/mapty.git"
+  },
+  "author": "Jesse Juwe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jessejuwe/mapty/issues"
+  },
+  "homepage": "https://github.com/jessejuwe/mapty#readme"
+}
